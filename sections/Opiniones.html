@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opiniones</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script src="https://kit.fontawesome.com/ce65c72d3e.js" crossorigin="anonymous"></script>
+    <script defer src="./js/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="./index.html" class="logo nav-link" >Rescatando Bigotes</a>
+            <button class="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="../index.html">Inicio</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="../sections/Contacto.html">Contacto</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="../sections/Cuchas.html">Cuchas</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="../sections/Adopciones.html">Adopciones</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="../sections/Opiniones.html">Opiniones</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article class="opinion">
+            <h2>Que te parecio nuestro refugio?</h2>
+        </article>
+        <article class="formulario">
+
+            <form class="eleccion">
+                <div>Hombre</div>
+                <input type="radio" name="sexo" value="hombre" />
+                <div>Mujer</div>
+                <input type="radio" name="sexo" value="mujer" />
+            </form>
+
+            <form class="nYa">
+                <label for="nombre_apellido">Nombre:</label>
+                <input type="text" name="nombre_apellido" />
+            </form>
+
+            <form class="perroYgato">
+                <div class="queAnimal">Que Animal Tenes?</div>
+                <div>Gato</div>
+                <input type="checkbox" name="acepta" value="1" />
+                <div>Perro</div>
+                <input type="checkbox" name="acepta" value="1" />
+                <div>Otro</div>
+                <input type="checkbox" name="acepta" value="1" />
+            </form>
+
+            <form class="casita">
+                <div class="dondeVives">Donde Vives?</div>
+                <select name="talles">
+                    <option value="depto">Departamento</option>
+                    <option value="casa">Casa</option>
+                </select>
+            </form>
+
+            <form class="mandar">
+                <textarea name="opinion" placeholder="Escriba aca su opinion"></textarea>
+                <input type="submit" value="Enviar formulario" />
+                <input type="reset" value="Limpiar formulario" />
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        <a href="https://www.facebook.com/rescatandobigotes/"><img src="./images/fb.png" alt=""></a>
+        
+        <a href="https://www.instagram.com/rescatando_bigotes/"><img src="./images/ig.png" alt=""></a>
+    </footer>
+
+</body>
+
+</html>
