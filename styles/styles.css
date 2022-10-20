@@ -450,4 +450,10 @@ left: 0;
     
     }
 
+    .fotoUno{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
