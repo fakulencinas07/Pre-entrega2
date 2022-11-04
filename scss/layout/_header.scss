@@ -1,0 +1,84 @@
+body {
+    padding: 90px 20px 0;
+    background-image: url(../images/wall1.png);
+
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+section.cats {
+    margin-top: 1px;
+        margin-left: 430px; 
+        padding-bottom: 40px;
+    }
+    
+    .header {
+        background-color: rgb(226, 181, 181);
+        height: 80px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: space-between;
+    
+        max-width: 992px;
+        margin: 0 auto;
+    }
+    
+    .nav-link {
+        color: white;
+        font-family: 'Satisfy', cursive;
+        text-decoration: none;
+    }
+    
+    .logo { 
+        font-size: 30px;
+        font-family: 'Satisfy', cursive;
+        font-weight: bold;
+        padding: 0 10px ;
+        line-height: 80px;
+        
+    }
+    
+    .nav-menu {
+        display: flex;
+        margin-right: 40px;
+        list-style: none;
+    }
+    
+    .nav-menu-item {
+        font-size: 18px;
+        margin: 32px 10px;
+        line-height: 100 px;
+        text-transform: uppercase;
+    
+    }
+    
+    .nav-menu-link{
+        padding: 8px 12px;
+        border-radius: 3px;
+    
+    }
+    
+    
+    .nav-menu-link:hover {
+        background-color: rgb(205, 137, 134);
+        transition: 0.5s;
+    }
+    
+    .nav-toggle {
+        color: white;
+        background: none;
+        border: none;
+        font-size: 30px;
+        padding: 0 20px;
+        line-height: 60px;
+        display: none;
+        cursor: pointer;
+    }

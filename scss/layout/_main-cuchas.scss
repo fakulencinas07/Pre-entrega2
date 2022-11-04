@@ -1,0 +1,16 @@
+.cuchas {
+    font-family: 'Raleway', sans-serif;
+    font-size:large;
+    font-style: normal;
+    font-weight:200;
+    color: $color-fuente;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin: 3%;
+}
+
+.fotoCucha{
+    @include props-flex (flex, row, center, center) ;
+}

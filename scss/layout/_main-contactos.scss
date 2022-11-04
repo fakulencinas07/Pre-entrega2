@@ -1,0 +1,21 @@
+.contacto {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    color: $color-fuente;
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 2% ;
+}
+
+.mama {
+    @include props-flex (flex, row, center, center) ;
+
+    margin: 3%;
+
+}
+
+
+

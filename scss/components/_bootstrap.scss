@@ -1,0 +1,57 @@
+/*navbar*/ 
+
+.logo:hover {
+    color: white;
+}
+
+
+
+.nav-menu-link:hover {
+    color: white;
+}
+    
+/*mediaqueries*/
+
+@media (max-width: 768px) {
+    
+    .mb-3{
+    display: inline;
+    
+        }
+    
+        .form-label{
+            display: inline-flexbox;
+            
+        }
+    
+        .form-select{
+        width: 15%;
+        margin-left: 42%;
+    }
+    
+    input {
+        color: burlywood;
+    }
+    
+    .checklist {
+        display: inline-flexbox;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 42%;
+        margin-right: 38%;
+        align-content: center;
+
+    }
+    
+    .form-label2{
+        display: inline-flexbox
+    }
+    
+    
+    .form-label1{
+        margin-left: 23%;
+        margin-bottom: 5%;
+    }
+
+
+}

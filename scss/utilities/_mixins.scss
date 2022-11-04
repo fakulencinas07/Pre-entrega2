@@ -1,0 +1,11 @@
+@mixin props-flex ($display, $aling, $direction, $justify){
+    display:$display;
+    align-items: $aling;
+    flex-direction: $direction;
+    justify-content: $justify;
+}
+
+@mixin position ($align, $justify){
+    align-items: $align;
+    justify-content: $justify;
+}

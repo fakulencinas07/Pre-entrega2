@@ -1,0 +1,417 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 90px 20px 0;
+  background-image: url(../images/wall1.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+section.cats {
+  margin-top: 1px;
+  margin-left: 430px;
+  padding-bottom: 40px;
+}
+
+.header {
+  background-color: rgb(226, 181, 181);
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.nav-link {
+  color: white;
+  font-family: "Satisfy", cursive;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 30px;
+  font-family: "Satisfy", cursive;
+  font-weight: bold;
+  padding: 0 10px;
+  line-height: 80px;
+}
+
+.nav-menu {
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+
+.nav-menu-item {
+  font-size: 18px;
+  margin: 32px 10px;
+  line-height: 100 px;
+  text-transform: uppercase;
+}
+
+.nav-menu-link {
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+.nav-menu-link:hover {
+  background-color: rgb(205, 137, 134);
+  transition: 0.5s;
+}
+
+.nav-toggle {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  display: none;
+  cursor: pointer;
+}
+
+/*navbar*/
+.logo:hover {
+  color: white;
+}
+
+.nav-menu-link:hover {
+  color: white;
+}
+
+/*mediaqueries*/
+@media (max-width: 768px) {
+  .mb-3 {
+    display: inline;
+  }
+  .form-label {
+    display: inline-flexbox;
+  }
+  .form-select {
+    width: 15%;
+    margin-left: 42%;
+  }
+  input {
+    color: burlywood;
+  }
+  .checklist {
+    display: inline-flexbox;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 42%;
+    margin-right: 38%;
+    align-content: center;
+  }
+  .form-label2 {
+    display: inline-flexbox;
+  }
+  .form-label1 {
+    margin-left: 23%;
+    margin-bottom: 5%;
+  }
+}
+/*-------tablet--------*/
+@media (max-width: 768px) {
+  body {
+    padding-top: 70px;
+  }
+  .header {
+    height: 60px;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+  }
+  .nav-link {
+    color: white;
+    font-family: "Satisfy", cursive;
+    text-decoration: none;
+  }
+  .logo {
+    font-size: 25px;
+    font-family: "Satisfy", cursive;
+    font-weight: bold;
+    padding: 0 20px;
+    line-height: 60px;
+    margin-left: 35%;
+  }
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+    background-color: rgb(201, 157, 157);
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    padding: 20px 0;
+    height: calc(100% - 60px);
+    overflow-y: auto;
+    left: 100%;
+    transition: left 0.3s;
+  }
+  .nav-menu-item {
+    line-height: 70 px;
+  }
+  .nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 3px;
+  }
+  .nav-menu-link:hover {
+    background-color: rgb(205, 137, 134);
+    transition: 0.5s;
+  }
+  .nav-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: block;
+  }
+  .nav-menu_visible {
+    left: 0;
+  }
+  .fotoUnoYDos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(250px, auto);
+    gap: 20px;
+    grid-auto-flow: dense;
+    margin: 2% 20%;
+  }
+  section p {
+    margin: 2%;
+  }
+  footer {
+    margin-top: 6%;
+    justify-content: center;
+  }
+}
+@media (max-width: 576px) {
+  .logo {
+    margin-left: 30%;
+  }
+  section h2 {
+    color: rgb(168, 105, 105);
+    text-shadow: 10px rgb(6, 6, 6);
+    margin-top: 30px;
+    margin-left: 5%;
+    padding-bottom: 20px;
+    font-family: "Raleway", sans-serif;
+    font-style: oblique;
+    font-size: xx-large;
+    text-align: center;
+  }
+  section p {
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 1%;
+  }
+  .fotoUnoYDos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-auto-rows: minmax(140px, auto);
+    gap: 30px;
+    grid-auto-flow: dense;
+    margin: 2% 28%;
+  }
+  .gridCat {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+  }
+}
+section h2 {
+  color: rgb(168, 105, 105);
+  text-shadow: 10px rgb(6, 6, 6);
+  margin-top: 30px;
+  padding-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+  font-style: oblique;
+  font-size: xx-large;
+  text-align: center;
+}
+
+section p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(10, 10, 10);
+  font-size: 20px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  padding: 0 70px;
+}
+
+.fotoUno {
+  display: flex;
+  align-items: none;
+  flex-direction: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  border-radius: 6px rgb(255, 255, 255);
+  box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.5);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fotoUnoYDos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(340px, auto);
+  gap: 30px;
+  grid-auto-flow: dense;
+  margin: 2% 28%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end right;
+}
+
+.contacto {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  color: rgb(168, 105, 105);
+  font-family: "Raleway", sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  margin: 2%;
+}
+
+.mama {
+  display: flex;
+  align-items: row;
+  flex-direction: center;
+  justify-content: center;
+  margin: 3%;
+}
+
+.cuchas {
+  font-family: "Raleway", sans-serif;
+  font-size: large;
+  font-style: normal;
+  font-weight: 200;
+  color: rgb(168, 105, 105);
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin: 3%;
+}
+
+.fotoCucha {
+  display: flex;
+  align-items: row;
+  flex-direction: center;
+  justify-content: center;
+}
+
+.adop {
+  font-family: "Raleway", sans-serif;
+  font-size: large;
+  font-weight: bolder;
+  color: rgb(168, 105, 105);
+}
+
+.grid-item {
+  display: flex;
+  align-items: none;
+  flex-direction: center;
+  justify-content: center;
+  background-color: blueviolet;
+  border-radius: 6px;
+  border-radius: 6px rgb(255, 255, 255);
+  box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gridCat {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 20px;
+  grid-auto-flow: dense;
+}
+
+.mb-3 {
+  display: inline-table;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+}
+
+.form-label {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 2%;
+}
+
+.form-select {
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  margin-left: 30%;
+}
+
+input {
+  color: burlywood;
+}
+
+.checklist {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 1%;
+}
+
+.form-label2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 1%;
+}
+
+.form-label1 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 1%;
+}
+
+/*# sourceMappingURL=style.css.map */
