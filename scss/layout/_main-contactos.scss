@@ -1,21 +1,25 @@
 .contacto {
     display: flex;
     align-items: center;
-    flex-direction: row;
+    text-align: center;
     justify-content: center;
     color: $color-fuente;
     font-family: 'Raleway', sans-serif;
     font-size: x-large;
     font-weight: bold;
-    margin: 2% ;
+    margin: 1% ;
 }
 
 .mama {
-    @include props-flex (flex, row, center, center) ;
-
-    margin: 3%;
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+    max-width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2.0em;
+    flex-wrap: wrap;
 
 }
-
-
 

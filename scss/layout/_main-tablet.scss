@@ -86,20 +86,13 @@
     left: 0;
     }
     
-    .fotoUnoYDos {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        grid-auto-rows: minmax(250px, auto);
-        gap: 20px;
-        grid-auto-flow: dense;
-        margin: 2% 20%;
-        
-    
+    /*tablet-index*/
+
+    .contenido {
+        grid-column: 1 / -1;
     }
 
-    section p {
-        margin: 2%;
-    }
+
     
     footer {
     margin-top: 6%;
