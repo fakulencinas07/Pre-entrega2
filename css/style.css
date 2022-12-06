@@ -5,7 +5,7 @@
 }
 
 body {
-  padding: 90px 20px 0;
+  padding: 90px auto 0;
   background-image: url(../images/wall1.png);
   background-repeat: repeat;
   background-position: center;
@@ -197,14 +197,41 @@ section.cats {
   }
 }
 @media (max-width: 576px) {
+  body {
+    margin-left: 10%;
+  }
   .logo {
-    margin-left: 30%;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenido {
+    width: auto;
+    margin: auto auto;
+    padding: auto auto;
+    max-width: auto;
+    min-height: auto;
+    display: inline-block;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+  }
+  .contenido .refu {
+    font-size: 40px;
+  }
+  .contenido .freddy {
+    justify-content: center;
+    width: auto;
+    height: auto;
+    max-width: 330px;
+    max-height: 330px;
+  }
+  section .sobre {
+    font-size: 30px;
   }
   section h2 {
     color: rgb(168, 105, 105);
     text-shadow: 10px rgb(6, 6, 6);
     margin-top: 30px;
-    margin-left: 5%;
     padding-bottom: 20px;
     font-family: "Raleway", sans-serif;
     font-style: oblique;
@@ -212,14 +239,22 @@ section.cats {
     text-align: center;
   }
   section p {
-    color: rgb(10, 10, 10);
-    font-size: 20px;
+    color: refugio Rescatando Bigotes gb(10, 10, 10);
+    font-size: 10px;
     text-align: center;
     font-family: "Raleway", sans-serif;
     align-items: center;
     justify-content: center;
     display: flex;
-    margin: 1%;
+  }
+  .contenido2 .picInfo {
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 80px;
+    border-radius: 80px rgb(255, 255, 255);
+    box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.5);
   }
   .fotoUnoYDos {
     display: grid;
@@ -227,7 +262,6 @@ section.cats {
     grid-auto-rows: minmax(140px, auto);
     gap: 30px;
     grid-auto-flow: dense;
-    margin: 2% 28%;
   }
   .gridCat {
     display: grid;
@@ -236,6 +270,10 @@ section.cats {
     gap: 20px;
     padding: 20px;
     grid-auto-flow: dense;
+  }
+  /*inicio*/
+  footer a {
+    visibility: hidden;
   }
 }
 .contenido {
@@ -292,7 +330,6 @@ section p {
   font-size: 20px;
   text-align: center;
   font-family: "Raleway", sans-serif;
-  padding: 0 70px;
 }
 
 .contenido2 {
@@ -337,7 +374,6 @@ section p {
   grid-auto-rows: minmax(340px, auto);
   gap: 30px;
   grid-auto-flow: dense;
-  margin: 2% 28%;
 }
 
 footer {
@@ -393,17 +429,15 @@ footer {
 }
 
 .adop {
+  text-align: center;
   font-family: "Raleway", sans-serif;
   font-size: large;
   font-weight: bolder;
   color: rgb(168, 105, 105);
+  margin: 2% 10%;
 }
 
 .grid-item {
-  display: flex;
-  align-items: none;
-  flex-direction: center;
-  justify-content: center;
   background-color: blueviolet;
   border-radius: 6px;
   border-radius: 6px rgb(255, 255, 255);
@@ -411,6 +445,7 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  transition: 3ms;
 }
 
 .gridCat {
@@ -420,6 +455,29 @@ footer {
   gap: 20px;
   padding: 20px;
   grid-auto-flow: dense;
+}
+
+.capa {
+  display: flex;
+  align-items: none;
+  flex-direction: center;
+  justify-content: center;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.759);
+  visibility: hidden;
+  transition: all 50ms ease-out;
+}
+
+.gridCat .grid-item:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
 }
 
 .mb-3 {
