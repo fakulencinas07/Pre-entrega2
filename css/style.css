@@ -5,6 +5,7 @@
 }
 
 body {
+  padding: 90px;
   background-image: url(../images/wall1.png);
   box-sizing: border-box;
   background-repeat: repeat;
@@ -486,6 +487,18 @@ p {
   font-family: "Raleway", sans-serif;
   font-weight: bolder;
   font-size: 50px;
+}
+
+.opinion {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: rgb(168, 105, 105);
+  font-family: "Raleway", sans-serif;
+  font-size: x-large;
+  font-weight: bolder;
 }
 
 .mb-3 {
