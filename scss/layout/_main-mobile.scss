@@ -2,20 +2,23 @@
 
 
     body {
-        margin-left: 10%;
+        width: 100%;
+        padding: 10% 10%;
     }
 
     .logo {
+
+        width: 100%;
         align-items: center;
         justify-content: center;
     }
 
     .contenido {
-        width: auto;
+        width: 100%;
         margin: auto auto;
         padding: auto auto;
-        max-width: auto;
-        min-height: auto;
+        max-width: 100%;
+        min-height: 100%;
         display: inline-block;
         justify-content: center;
         gap: 2.0em;
@@ -23,10 +26,12 @@
     }
 
     .contenido .refu {
+        width: 100%;
         font-size: 40px;
     }
 
     .contenido .freddy {
+        width: 100%;
         justify-content: center;
         width: auto;
         height: auto;
@@ -36,10 +41,12 @@
 
 
     section .sobre {
+        width: 100%;
         font-size: 30px;
     }
 
     section h2 {
+        width: 100%;
         color: rgb(168, 105, 105);
         text-shadow: 10px rgb(6, 6, 6);
         margin-top: 30px;
@@ -53,18 +60,19 @@
     }
 
     section p {
+        width: 100%;
         color: refugio Rescatando Bigotes gb(10, 10, 10);
         font-size: 10px;
         text-align: center;
         font-family: 'Raleway', sans-serif;
         @include position (center, center);
-        display: flex;
+        display: none;
 
 
     }
 
     .contenido2 .picInfo {
-            width: auto;
+            width: 100%;
             height: auto;
             max-width: 300px;
             max-height: 300px;
@@ -75,7 +83,8 @@
     
 
     .fotoUnoYDos {
-        display: grid;
+        width: 100%;
+        display: none;
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
         grid-auto-rows: minmax(140px, auto);
         gap: 30px;
@@ -102,6 +111,6 @@ footer a {
 visibility: hidden;
 }
 
-
 }
+
 

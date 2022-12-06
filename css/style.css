@@ -5,8 +5,8 @@
 }
 
 body {
-  padding: 90px auto 0;
   background-image: url(../images/wall1.png);
+  box-sizing: border-box;
   background-repeat: repeat;
   background-position: center;
   background-attachment: fixed;
@@ -198,27 +198,31 @@ section.cats {
 }
 @media (max-width: 576px) {
   body {
-    margin-left: 10%;
+    width: 100%;
+    padding: 10% 10%;
   }
   .logo {
+    width: 100%;
     align-items: center;
     justify-content: center;
   }
   .contenido {
-    width: auto;
+    width: 100%;
     margin: auto auto;
     padding: auto auto;
-    max-width: auto;
-    min-height: auto;
+    max-width: 100%;
+    min-height: 100%;
     display: inline-block;
     justify-content: center;
     gap: 2em;
     flex-wrap: wrap;
   }
   .contenido .refu {
+    width: 100%;
     font-size: 40px;
   }
   .contenido .freddy {
+    width: 100%;
     justify-content: center;
     width: auto;
     height: auto;
@@ -226,9 +230,11 @@ section.cats {
     max-height: 330px;
   }
   section .sobre {
+    width: 100%;
     font-size: 30px;
   }
   section h2 {
+    width: 100%;
     color: rgb(168, 105, 105);
     text-shadow: 10px rgb(6, 6, 6);
     margin-top: 30px;
@@ -239,16 +245,17 @@ section.cats {
     text-align: center;
   }
   section p {
+    width: 100%;
     color: refugio Rescatando Bigotes gb(10, 10, 10);
     font-size: 10px;
     text-align: center;
     font-family: "Raleway", sans-serif;
     align-items: center;
     justify-content: center;
-    display: flex;
+    display: none;
   }
   .contenido2 .picInfo {
-    width: auto;
+    width: 100%;
     height: auto;
     max-width: 300px;
     max-height: 300px;
@@ -257,7 +264,8 @@ section.cats {
     box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.5);
   }
   .fotoUnoYDos {
-    display: grid;
+    width: 100%;
+    display: none;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     grid-auto-rows: minmax(140px, auto);
     gap: 30px;
