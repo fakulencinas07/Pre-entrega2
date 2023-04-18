@@ -7,50 +7,40 @@
     color: $color-fuente;
     font-family: 'Raleway', sans-serif;
     font-size: x-large;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 
-
-    .mb-3{
-    display: inline-table;
-    width: 40%;
-    align-items: center;
-    justify-content: center;
-    margin: auto 30%;
-    }
-
-    .form-label{
-    @include position (center, center);
-    display: flex;
-    margin: 2%;
-    }
-
-    .form-select{
-    @include position (center, center);
-    width: 40%;
-    margin: auto 30%;
+.form {
+    max-inline-size: 550px;
+    margin: auto;
 }
 
-input {
-    color: burlywood;
+.form label {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: .5em;
+    padding-inline-start: .5em;
 }
 
-.checklist {
-    @include position (center, center);
-    display: flex;
-    margin: 1%;
+.form label span {
+    color: #DA1414;
 }
 
-.form-label2{
-    @include position (center, center);
-    display: flex;
-    margin: 1%;
+.form input, .form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    padding: .8em;
+    border-radius: .5em;
+    border: 1px solid #858C94;
 }
 
-.form-label1{
-    @include position (center, center);
-    display: flex;
-    margin: 3%;
+.form textarea {
+    margin-block-end: 2em;
+    font-family: inherit;
 }
 
+input::-webkit-input-placeholder {
+    color: #0F0A0A88;
+}
