@@ -22,7 +22,7 @@ section.cats {
 .header {
   background-color: rgb(226, 181, 181);
   height: 80px;
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 0;
   left: 0;
@@ -97,16 +97,20 @@ section.cats {
   .mb-3 {
     display: inline;
   }
+
   .form-label {
     display: inline-flexbox;
   }
+
   .form-select {
     width: 15%;
     margin-left: 42%;
   }
+
   input {
     color: burlywood;
   }
+
   .checklist {
     display: inline-flexbox;
     margin-top: 1%;
@@ -115,33 +119,40 @@ section.cats {
     margin-right: 38%;
     align-content: center;
   }
+
   .form-label2 {
     display: inline-flexbox;
   }
+
   .form-label1 {
     margin-left: 23%;
     margin-bottom: 5%;
   }
 }
+
 /*-------tablet--------*/
 @media (max-width: 768px) {
   body {
     padding-top: 70px;
   }
+
   .header {
     height: 60px;
   }
+
   .nav {
     display: flex;
     justify-content: space-between;
     max-width: 992px;
     margin: 0 auto;
   }
+
   .nav-link {
     color: white;
     font-family: "Satisfy", cursive;
     text-decoration: none;
   }
+
   .logo {
     font-size: 25px;
     font-family: "Satisfy", cursive;
@@ -150,6 +161,7 @@ section.cats {
     line-height: 60px;
     text-align: center;
   }
+
   .nav-menu {
     flex-direction: column;
     align-items: center;
@@ -165,17 +177,21 @@ section.cats {
     left: 100%;
     transition: left 0.3s;
   }
+
   .nav-menu-item {
     line-height: 70 px;
   }
+
   .nav-menu-link {
     padding: 8px 12px;
     border-radius: 3px;
   }
+
   .nav-menu-link:hover {
     background-color: rgb(205, 137, 134);
     transition: 0.5s;
   }
+
   .nav-toggle {
     color: white;
     background: none;
@@ -185,17 +201,21 @@ section.cats {
     line-height: 60px;
     display: block;
   }
+
   .nav-menu_visible {
     left: 0;
   }
+
   /*tablet-index*/
   .contenido {
     grid-column: 1/-1;
   }
+
   footer {
     margin-top: 6%;
     justify-content: center;
   }
+
   .mb-3 {
     display: inline-table;
     width: 40%;
@@ -204,16 +224,19 @@ section.cats {
     margin: auto auto;
   }
 }
+
 @media (max-width: 576px) {
   body {
     width: 100%;
     padding: 10% 10%;
   }
+
   .logo {
     width: 100%;
     align-items: center;
     justify-content: center;
   }
+
   .contenido {
     width: 100%;
     margin: auto auto;
@@ -225,10 +248,12 @@ section.cats {
     gap: 2em;
     flex-wrap: wrap;
   }
+
   .contenido .refu {
     width: 100%;
     font-size: 40px;
   }
+
   .contenido .freddy {
     width: 100%;
     justify-content: center;
@@ -237,10 +262,12 @@ section.cats {
     max-width: 330px;
     max-height: 330px;
   }
+
   section .sobre {
     width: 100%;
     font-size: 30px;
   }
+
   section h2 {
     width: 100%;
     color: rgb(168, 105, 105);
@@ -252,6 +279,7 @@ section.cats {
     font-size: xx-large;
     text-align: center;
   }
+
   section p {
     width: 100%;
     color: refugio Rescatando Bigotes gb(10, 10, 10);
@@ -262,6 +290,7 @@ section.cats {
     justify-content: center;
     display: none;
   }
+
   .contenido2 .picInfo {
     width: 100%;
     height: auto;
@@ -271,6 +300,7 @@ section.cats {
     border-radius: 80px rgb(255, 255, 255);
     box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.5);
   }
+
   .fotoUnoYDos {
     width: 100%;
     display: none;
@@ -279,6 +309,7 @@ section.cats {
     gap: 30px;
     grid-auto-flow: dense;
   }
+
   .gridCat {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -287,11 +318,13 @@ section.cats {
     padding: 20px;
     grid-auto-flow: dense;
   }
+
   /*inicio*/
   footer a {
     visibility: hidden;
   }
 }
+
 .contenido {
   width: 90%;
   margin: 0 auto;
@@ -424,72 +457,88 @@ footer {
   flex-wrap: wrap;
 }
 
-.cuchas {
-  font-family: "Raleway", sans-serif;
-  font-size: large;
-  font-style: normal;
-  font-weight: 200;
-  color: rgb(168, 105, 105);
+.tituloCuchas {
+  width: auto;
+  height: auto;
+  display: flex;
   text-align: center;
-  margin: 10px 20%;
-}
-
-.tienda {
-  padding: 70px auto;
-  margin: 40px auto;
-  justify-content: center;
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.mostrador {
-  transition: 10ms ease;
-}
-
-.mostrador .fila {
-  display: flex;
-  margin-bottom: 30px;
-}
-
-.mostrador .fila .item {
-  max-width: 300px;
-  text-align: center;
-  margin: 0 10px;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: 5s;
-}
-
-.contenedor-foto {
-  width: 300px;
-  height: 400px;
-  overflow: hidden;
-  border-radius: 30px;
-}
-
-.contenedor-foto img {
-  width: 300px;
-  height: 400px;
-}
-
-.contenedor-foto .descripcion {
-  padding: 1%;
-  margin: 0 6%;
-  position: absolute;
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: end;
-  text-align: end;
-}
-
-span {
-  position: absolute;
-  margin: 3% 8%;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  color: rgb(168, 105, 105);
+  font-family: "Raleway", sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  margin: 2rem 5rem;
+}
+
+.row {
   display: flex;
+  justify-content: center;
+}
+
+.imgCuchas {
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+  align-items: center;
+}
+
+.card {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.card-body p {
+  color: rgb(168, 105, 105);
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.card-body span {
+  color: rgb(168, 105, 105);
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  justify-content: center;
+  display: flex;
+  font-size: 20px;
+  padding-bottom: 0.7rem;
+}
+
+.colorBoton {
+  margin-top: 0.9rem;
+  color: white;
+  background-color: rgb(226, 181, 181);
+}
+
+.colorBoton:hover {
+  background-color: rgb(209, 137, 137);
+  color: white;
+}
+
+.chucherias {
+  text-align: center;
+}
+
+.chucherias h2 {
+  font-weight: bold;
+  color: rgb(168, 105, 105);
+  font-family: "Raleway", sans-serif;
+}
+
+.chucherias h3 {
+  color: rgb(168, 105, 105);
+  font-weight: bolder;
+  font-family: "Raleway", sans-serif;
+}
+
+.comprado {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
 }
 
 .adop {
@@ -533,7 +582,7 @@ span {
   transition: all 50ms ease-out;
 }
 
-.gridCat .grid-item:hover > .capa {
+.gridCat .grid-item:hover>.capa {
   opacity: 1;
   visibility: visible;
 }
@@ -553,54 +602,42 @@ p {
   color: rgb(168, 105, 105);
   font-family: "Raleway", sans-serif;
   font-size: x-large;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
-.mb-3 {
-  display: inline-table;
-  width: 40%;
-  align-items: center;
-  justify-content: center;
-  margin: auto 30%;
+.form {
+  max-inline-size: 550px;
+  margin: auto;
 }
 
-.form-label {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  margin: 2%;
+.form label {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 0.5em;
+  padding-inline-start: 0.5em;
 }
 
-.form-select {
-  align-items: center;
-  justify-content: center;
-  width: 40%;
-  margin: auto 30%;
+.form label span {
+  color: #DA1414;
 }
 
-input {
-  color: burlywood;
+.form input,
+.form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.8em;
+  border-radius: 0.5em;
+  border: 1px solid #858C94;
 }
 
-.checklist {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  margin: 1%;
+.form textarea {
+  margin-block-end: 2em;
+  font-family: inherit;
 }
 
-.form-label2 {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  margin: 1%;
-}
-
-.form-label1 {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  margin: 3%;
+input::-webkit-input-placeholder {
+  color: rgba(15, 10, 10, 0.5333333333);
 }
 
 /*# sourceMappingURL=style.css.map */
