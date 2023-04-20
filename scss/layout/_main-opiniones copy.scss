@@ -1,0 +1,57 @@
+.opinion{
+    margin: 10px 10%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: $color-fuente;
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+
+    .mb-3{
+    display: inline-table;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    margin: auto 30%;
+
+    }
+
+    .form-label{
+    @include position (center, center);
+    display: flex;
+    margin: 2%;
+    }
+
+    .form-select{
+    @include position (center, center);
+    width: 40%;
+    margin: auto 30%;
+}
+
+input {
+    color: burlywood;
+}
+
+.checklist {
+    @include position (center, center);
+    display: flex;
+    margin: 1%;
+}
+
+.form-label2{
+    @include position (center, center);
+    display: flex;
+    margin: 1%;
+}
+
+.form-label1{
+    @include position (center, center);
+    display: flex;
+    margin: 3%;
+}
+
