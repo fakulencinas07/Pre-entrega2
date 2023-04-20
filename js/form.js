@@ -1,6 +1,6 @@
-const forms = document.getElementById("form");
+const $form = document.getElementById("form");
 
-forms.addEventListener('submit', handleSubmit)
+$form.addEventListener('submit', handleSubmit)
 
 async function handleSubmit(event){
     event.preventDefault()
