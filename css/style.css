@@ -457,6 +457,14 @@ footer {
   flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1b07abbf584863dfd9d13e679165974103d96895
+>>>>>>> 7e05f9a6d3248c6bb7b5137f6b4bf971546bfe10
 .tituloCuchas {
   width: auto;
   height: auto;
@@ -487,10 +495,46 @@ footer {
   height: 80%;
   width: 80%;
   display: flex;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+.imgCuchas {
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+>>>>>>> 2108b86657e777ecd2c5510490a63366ad8a0b85
+=======
+.imgCuchas {
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+>>>>>>> 2108b86657e777ecd2c5510490a63366ad8a0b85
+>>>>>>> 1b07abbf584863dfd9d13e679165974103d96895
+>>>>>>> 7e05f9a6d3248c6bb7b5137f6b4bf971546bfe10
   align-items: center;
   margin: 0.5rem;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1b07abbf584863dfd9d13e679165974103d96895
+>>>>>>> 7e05f9a6d3248c6bb7b5137f6b4bf971546bfe10
 .card-body p {
   color: rgb(168, 105, 105);
   font-family: "Raleway", sans-serif;
@@ -510,6 +554,18 @@ footer {
 
 .colorBoton {
   margin-top: 0.9rem;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+.colorBoton {
+>>>>>>> 2108b86657e777ecd2c5510490a63366ad8a0b85
+=======
+.colorBoton {
+>>>>>>> 2108b86657e777ecd2c5510490a63366ad8a0b85
+>>>>>>> 1b07abbf584863dfd9d13e679165974103d96895
+>>>>>>> 7e05f9a6d3248c6bb7b5137f6b4bf971546bfe10
   color: white;
   background-color: rgb(226, 181, 181);
 }
@@ -517,18 +573,32 @@ footer {
 .colorBoton:hover {
   background-color: rgb(209, 137, 137);
   color: white;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1b07abbf584863dfd9d13e679165974103d96895
+>>>>>>> 7e05f9a6d3248c6bb7b5137f6b4bf971546bfe10
 }
 
 .chucherias {
   text-align: center;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7e05f9a6d3248c6bb7b5137f6b4bf971546bfe10
 .chucherias h2 {
   font-weight: bold;
   color: rgb(168, 105, 105);
   font-family: "Raleway", sans-serif;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7e05f9a6d3248c6bb7b5137f6b4bf971546bfe10
 .chucherias h3 {
   color: rgb(168, 105, 105);
   font-weight: bolder;
@@ -539,6 +609,16 @@ footer {
   margin-top: 3rem;
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2108b86657e777ecd2c5510490a63366ad8a0b85
+=======
+>>>>>>> 2108b86657e777ecd2c5510490a63366ad8a0b85
+>>>>>>> 1b07abbf584863dfd9d13e679165974103d96895
+>>>>>>> 7e05f9a6d3248c6bb7b5137f6b4bf971546bfe10
 }
 
 .adop {
@@ -621,8 +701,12 @@ p {
   color: #DA1414;
 }
 
+<<<<<<< HEAD
 .form input,
 .form textarea {
+=======
+.form input, .form textarea {
+>>>>>>> 7e05f9a6d3248c6bb7b5137f6b4bf971546bfe10
   box-sizing: border-box;
   width: 100%;
   font-size: 1rem;
@@ -640,4 +724,8 @@ input::-webkit-input-placeholder {
   color: rgba(15, 10, 10, 0.5333333333);
 }
 
+<<<<<<< HEAD
 /*# sourceMappingURL=style.css.map */
+=======
+/*# sourceMappingURL=style.css.map */
+>>>>>>> 7e05f9a6d3248c6bb7b5137f6b4bf971546bfe10
